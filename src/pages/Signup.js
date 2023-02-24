@@ -11,7 +11,7 @@ import CustomInput from "../components/CustomInput";
 import { fetchAuth, fetchRegister, selectIsAuth } from '../redux/slices/auth';
 
  const Signup = () => {
-  const isAuth = useSelector(selectIsAuth);
+  const isAuth = window.localStorage.getItem('token');
   const dispatch = useDispatch();
 
   const {register, handleSubmit, setError, formState: {errors, isValid}} = useForm({
