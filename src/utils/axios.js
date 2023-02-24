@@ -13,7 +13,7 @@ import axios from 'axios';
 
 
 const instance = axios.create({
-    baseURL: 'https://mern-ecommerce-7hcd.onrender.com',
+    baseURL: 'https://mern-ecommerce-7hcd.onrender.com/api',
     withCredentials: true,
 });
 
