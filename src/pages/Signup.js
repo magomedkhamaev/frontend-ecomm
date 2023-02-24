@@ -37,9 +37,9 @@ import { fetchAuth, fetchRegister, selectIsAuth } from '../redux/slices/auth';
     }
  };
 
-//  if(isAuth) {
-//   return <Navigate to="/" />
-//  }
+ if(isAuth) {
+  return window.location.href = "https://keen-centaur-b5df4f.netlify.app";
+ }
 
   return (
     <>

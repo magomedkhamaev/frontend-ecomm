@@ -48,7 +48,7 @@ const Login = () => {
     
  //   // console.log('isAuth', isAuth)
     if(isAuth) {
-     return window.location.href = "http://localhost:3000/";
+     return window.location.href = "https://keen-centaur-b5df4f.netlify.app";
     }
  
 
