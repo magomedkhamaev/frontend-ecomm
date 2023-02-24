@@ -1,9 +1,9 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-
+import wish from "../../utils/axios";
 export const fetchColor = createAsyncThunk('fetchColor', async () => {
 //    const {priceFrom, priceTo} = params;
-   const { data } = await axios.get('https://mern-ecommerce-7hcd.onrender.com/api/color/');
+   const { data } = await wish.get('/color/');
    return data;
 })
 
