@@ -1,0 +1,1 @@
+export const base_url = "https://mern-ecommerce-7hcd.onrender.com";
